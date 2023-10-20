@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <title>PAGO EFECTY | Rápido y Seguro</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+  <meta name="theme-name" content="small-apps" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/1.png" />
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+<nav style="background:black;" class="navbar main-nav navbar-expand-lg">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logoPE.png" height="60px"/>
+      </a>
+    <button style="background: rgb(176,176,176); background: linear-gradient(90deg, #00FCA8 40%, #1CDAFF 50%, #1CDAFF 80%);color:rgba(176,176,176,1);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item @@about">
+          <a style="color:#fff;" class="nav-link" href="#">Inicio   
+          </a>    
+        </li>
+        <li class="nav-item @@about">
+          <a style="color:#fff;" class="nav-link" href="Nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item @@contact">
+          <a style="color:#fff;" class="nav-link" href="Contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+ @media (max-width: 767px) {
+  body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+</style>
+
+<section style="margin-top:-25px;margin-bottom:17px;" class="section" id="fondaso2">
+	<div class="shapes-container">
+	</div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+				<p class="text mb-4" style="font-weight:700;color: white;font-size:55px;font-family:'Lucida Bright';" id="tituloTipoCambio">Cambia tus Dólares rápido y fácil</p>
+				<p class="text mb-4" style="font-weight:600;color: white;" >Síguenos en nuestras redes sociales:</p>
+				<i class="icon ion-logo-facebook" id="facebook-icon"></i>
+                <i class="icon ion-logo-instagram" id="instagram-icon"></i>
+                <i class="icon ion-logo-twitter" id="twitter-icon"></i>
+			</div>
+			<style>
+			
+			.icon {
+  font-size: 32px;
+  margin-right: 18px;
+  color: white;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.highlight {
+  background: rgb(176,176,176);
+    background: linear-gradient(90deg, #00FCA8 40%, #1CDAFF 50%, #1CDAFF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Color azulino fosforescente */
+}
+
+			
+			.fondocolor2 {
+        background: rgb(176,176,176);background: linear-gradient(90deg, #00FCA8 40%, #1CDAFF 50%, #1CDAFF 80%);
+        color:#fff;
+        font-weight: 700!important;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+    }
+			
+				.img-fluid{
+					margin-top: -10%;
+				}
+
+				#fondaso2 {
+                
+				background-image: url('images/newfondo4.png');
+				background-repeat: no-repeat;
+				background-size: cover; 
+                }
+
+				.btn-tipo {
+					background-color: #ffffff;
+					color: #000000;
+					border-color: #27252500;
+					border-width: 1px; /* Ajusta el grosor del borde según tus preferencias */
+					border-style: solid; /* Define el estilo del borde como una línea continua */
+					box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+					font-size: 15px; /* Ajusta el tamaño de la fuente según tus preferencias */
+                    padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+				}
+				.btn-tipo.active {
+				background: rgb(176,176,176); background: linear-gradient(90deg, #00FCA8 40%, #1CDAFF 50%, #1CDAFF 80%);
+				color: white;
+				border: none;
+}
+
+			                  .input-group {
+                  max-width: 270px; /* Ajusta el ancho máximo del input-group según tus necesidades */
+                  margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+                }
+
+                .input-group-prepend, .input-group-text {
+                  width: 70px; /* Ajusta el ancho del elemento con el símbolo según tus necesidades */
+                }
+
+                #cantidad {
+                  border-radius: 0 6px 6px 0; /* Aplica el radio de los bordes solo al lado derecho */
+                }
+
+                #resultado {
+                   border-radius: 0 6px 6px 0; /* Aplica el radio de los bordes solo al lado derecho */
+                }
+
+			</style>
+<div style="border-radius: 15px;margin-top: -20px;background: rgb(23,23,23);
+background: linear-gradient(90deg, rgba(23,23,23,0.65) 30%, rgba(23,23,23,0.65) 70%);" class="col-md-6 text-center order-1 order-md-2 pt-4 pb-4">
+						<div style="padding: 0px 15px 10px 15px;" class="row">
+							<div class="col-12">
+								<p style="font-family:Open Sans, sans-serif;font-weight: 700!important; color:white;margin-bottom:5%;">Selecciona tu tipo de cambio</p>
+							</div>
+							<div class="col-12">
+								<form name="formulario" id="formulario">
+								  <div class="form-row align-items-center">
+									<div class="col-md-4">
+									  <button style="font-weight: 700!important; font-family: Open Sans, sans-serif;" type="button" class="btn btn-tipo active" id="btnCompra" onclick="seleccionarTipoCambio('compra')">COMPRA: <span id="tipoCambioCompra">3.65</span></button>
+									</div>
+									<div class="col-md-4 d-flex align-items-center justify-content-center">
+									  <i class="icon ion-md-swap" style="font-size: 40px; color: #1CDAFF; border-radius: 20px; padding: 0px 15px 0px 15px; cursor: pointer;" onclick="cambiarTipoCambio()"></i>
+									</div>
+									<div class="col-md-4">
+									  <button style="font-weight: 700!important; font-family: Open Sans, sans-serif;" type="button" class="btn btn-tipo" id="btnVenta" onclick="seleccionarTipoCambio('venta')">VENTA: <span id="tipoCambioVenta">3.70</span></button>
+									</div>
+									</div>
+									<br>
+									
+									<div class="input-group mb-3 offset-md-3">
+                                      <div class="input-group-prepend">
+                                        <span id="simbolo1" class="input-group-text">USD $</span>
+                                      </div>
+                                      <input style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);" class="form-control" type="text" name="cantidad" id="cantidad" oninput="calcular()" placeholder="Cantidad">
+                                      <span id="cantidadLabel" style="color: aliceblue;"></span> 
+                                    </div>
+                                    
+                                    <div class="input-group mb-2 offset-md-3">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text" id="simbolo2">PEN S/</span>
+                                      </div>
+                                      <input style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);" class="form-control" type="text" name="resultado" id="resultado" readonly="readonly" placeholder="Tu Recibes">
+                                      <span id="resultadoLabel" style="color: aliceblue;"></span> 
+                                    </div>
+					
+									<br>
+									<div class="form-row align-items-center">
+										<div class="col-md-12">
+											<p id="mensajeTipoCambio" style="color: white;font-family:Open Sans, sans-serif;font-weight: 700!important;"></p>
+										</div>
+									</div>
+									<br>
+									<div class="text-center">
+										<button type="button" onclick="enviarWhatsapp()" style="font-weight: 700!important;color: aliceblue;background: rgb(176,176,176);background: linear-gradient(90deg, #00FCA8 20%, #1CDAFF 50%, #1CDAFF 80%);box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);" class="btn">Realizar Operación</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					
+					<script>
+						let precioCompra = 3.65; // Reemplaza con el valor de compra actual
+                        let precioVenta = 3.70; // Reemplaza con el valor de venta actual
+                        
+                        function seleccionarTipoCambio(tipo) {
+                          document.getElementById("btnCompra").classList.remove("active");
+                          document.getElementById("btnVenta").classList.remove("active");
+                        
+                          if (tipo === "compra") {
+                            document.getElementById("btnCompra").classList.add("active");
+                            document.getElementById("tipoCambioCompra").innerText = precioCompra.toFixed(2);
+                            document.getElementById("simbolo1").innerText = "USD $"; // Cambia el símbolo del tipo de cambio a "PEN S/"
+                            document.getElementById("simbolo2").innerText = "PEN S/"; // Cambia el símbolo del resultado a "USD $"
+                          } else if (tipo === "venta") {
+                            document.getElementById("btnVenta").classList.add("active");
+                            document.getElementById("tipoCambioVenta").innerText = precioVenta.toFixed(2);
+                            document.getElementById("simbolo1").innerText = "PEN S/"; // Cambia el símbolo del tipo de cambio a "USD $"
+                            document.getElementById("simbolo2").innerText = "USD $"; // Cambia el símbolo del resultado a "PEN S/"
+                          }
+                        
+                          calcular();
+                        }
+					  
+						function cambiarTipoCambio() {
+						  let btnCompra = document.getElementById("btnCompra");
+						  let btnVenta = document.getElementById("btnVenta");
+					  
+						  btnCompra.classList.toggle("active");
+						  btnVenta.classList.toggle("active");
+					  
+						  let tipo = btnCompra.classList.contains("active") ? "compra" : "venta";
+						  seleccionarTipoCambio(tipo);
+						}
+					
+						function calcular() {
+							let tipoCambio;
+							let mensaje;
+							if (document.getElementById("btnCompra").classList.contains("active")) {
+								tipoCambio = "compra";
+								mensaje = "ENVÍAS DÓLARES Y RECIBES SOLES";
+							} else if (document.getElementById("btnVenta").classList.contains("active")) {
+								tipoCambio = "venta";
+								mensaje = "ENVÍAS SOLES Y RECIBES DÓLARES";
+							} else {
+								return;
+							}
+					
+							let cantidad = document.getElementById("cantidad").value;
+							let resultado;
+					
+							if ((cantidad - 0) != cantidad && ('' + cantidad).replace(/^\s+|\s+$/g, "").length > 0) {
+								alert("Ingrese números");
+								return false;
+							} else {
+								if (tipoCambio === "compra") {
+									resultado = (cantidad * precioCompra).toFixed(2);
+								} else if (tipoCambio === "venta") {
+									resultado = (cantidad / precioVenta).toFixed(2);
+								}
+								document.getElementById("resultado").value = resultado;
+							}
+					
+							document.getElementById("mensajeTipoCambio").innerText = mensaje;
+						}
+					
+						function enviarWhatsapp() {
+							let tipoCambio;
+							if (document.getElementById("btnCompra").classList.contains("active")) {
+								tipoCambio = "COMPRA";
+							} else if (document.getElementById("btnVenta").classList.contains("active")) {
+								tipoCambio = "VENTA";
+							} else {
+								return;
+							}
+					
+							let resultadoCambio = document.getElementById("resultado").value;
+							let mensaje = `¡Hola! Quiero realizar una ${tipoCambio} con un resultado de ${resultadoCambio}.`;
+					
+							// Reemplaza el número de teléfono con tu número de WhatsApp
+							let telefono = "970478495";
+							let url = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensaje)}`;
+					
+							window.open(url, "_blank");
+						}
+					
+					// Lista de textos predeterminados
+							var textosPredeterminados = [
+								"Cambia tus Dólares rápido y fácil",
+								"Con el mejor Tipo de Cambio",
+								"Solo aquí en Cambios Vara",
+								"El mejor cambio del Perú"
+							];
+
+							var textoIndex = 0;
+
+							function cambiarTexto() {
+								document.getElementById("tituloTipoCambio").innerText = textosPredeterminados[textoIndex];
+								textoIndex = (textoIndex + 1) % textosPredeterminados.length;
+							}
+
+							// Cambiar el texto cada 2 segundos
+							setInterval(cambiarTexto, 3000);
+							
+							// Obtenemos los elementos de los iconos
+var facebookIcon = document.getElementById('facebook-icon');
+var instagramIcon = document.getElementById('instagram-icon');
+var twitterIcon = document.getElementById('twitter-icon');
+
+// Añadimos los eventos para resaltar los iconos al pasar el cursor sobre ellos
+facebookIcon.addEventListener('mouseover', function() {
+  this.classList.add('highlight');
+});
+
+facebookIcon.addEventListener('mouseout', function() {
+  this.classList.remove('highlight');
+});
+
+instagramIcon.addEventListener('mouseover', function() {
+  this.classList.add('highlight');
+});
+
+instagramIcon.addEventListener('mouseout', function() {
+  this.classList.remove('highlight');
+});
+
+twitterIcon.addEventListener('mouseover', function() {
+  this.classList.add('highlight');
+});
+
+twitterIcon.addEventListener('mouseout', function() {
+  this.classList.remove('highlight');
+});
+					</script>		
+			</div>
+		</div>
+</section>
+	
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            $('#miModal').modal('show');
+        });
+    </script>
+
+
+
+          <section class="service section pt-5">
+              <center>
+                  <div class="container-fluid p-0">
+                      <div class="row">
+                              <div class="container" style="align-items: center;">
+
+                                <div class="text-center mb-4">
+                                    <h2 style="background: rgb(176,176,176);background: linear-gradient(90deg, #00FCA8 40%, #1CDAFF 50%, #1CDAFF 80%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 700!important;">CAMBIA TUS DÓLARES EN 3 SIMPLES PASOS:</h2>
+                                </div>
+                            
+                                <div class="row bg-light p-4" style="border-radius:25px;">
+                                    <div class="col-md-4 col-12 d-flex flex-column align-items-center">
+                                        <div class="text-center">
+                                            <img src="images/2.png" alt="Descripción de la imagen" style="max-width: auto;height:220px;">
+                                        </div>
+                                        <p class="text-center mt-2" style="color: #000000;font-size: 20px;"><b>COTIZA TU OPERACIÓN COMPRA Y VENTA</b></p>
+                                    </div>
+                                    <div class="col-md-4 col-12 d-flex flex-column align-items-center">
+                                        <div class="text-center">
+                                            <img src="images/3.png" alt="Descripción de la imagen" style="max-width: auto;height:220px;">
+                                        </div>
+                                        <p class="text-center mt-2" style="color: #000000;font-size: 20px;"><b>TRANSFIERE A LA CUENTA DE PAGO EFECTY</b></p>
+                                    </div>
+                                    <div class="col-md-4 col-12 d-flex flex-column align-items-center">
+                                        <div class="text-center">
+                                            <img src="images/4.png" alt="Descripción de la imagen" style="max-width: auto;height:220px;">
+                                        </div>
+                                        <p class="text-center mt-2" style="color: #000000;font-size: 20px;"><b>RECIBE TU CAMBIO DURANTE EL PERIODO 10 MIN</b></p>
+                                    </div>
+                                </div>
+                            
+                              </div>
+                      </div>
+                  </div>
+              </center>
+          </section>
+
+
+<section  class="section pt-2  position-relative">
+                <div  class="container">
+                     <div class="rounded-container">
+                             <div class="rounded shadow p-5" style="background: #1CDAFF;
+background: linear-gradient(180deg, #1CDAFF 27%, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 57%, #1CDAFF 57%);">
+                                <div class="row">
+                                        <!--<div class="col-12 text-center mb-3"><p style="font-size:30px;color:black;font-weight:700;">Transferencias</p></div>-->
+                                        <div  class="col-md-6 col-12 text-center">
+                                            <p style="color:black;"><i style="font-size:20px;color:black;" class="icon ion-md-time"></i><b> TIEMPO DE ABONO ENTRES 10 A 15 MINUTOS</b></p>
+                                            <img class="col-12 img-fluid bcp" src="images/banco-de-credito-del-peru-bcp-logo-vector-1.png" style="margin-top: 40px;" alt="">
+                                            <p style="margin-top:25px;color:black;font-size:15px;"><span style="color:black;font-weight:700;">* TRANSFERENCIA A NIVEL NACIONAL VÍA TELECRÉDITO:</span> Desde tu banco <strong>(BCP)</strong> a la cuenta de Pago Efecty <strong>(BCP)</strong>.</p>
+                                            <p style="margin-top:15px;color:black;font-size:15px;"><span style="color:black;font-weight:700;">* TRANSFERENCIA A NIVEL LIMA:</span> Vía app o web de tu banco <strong>(BCP)</strong> a la cuenta de Pago Efecty <strong>(BCP)</strong>.</p>
+                                        </div>
+                                        <div class="col-md-6 col-12 text-center rps">
+                                           <p style="color:black;"><i style="font-size:20px;color:black;" class="icon ion-md-time"></i><b> TIEMPO DE ABONO ENTRES 15 A 20 MINUTOS</b></p>
+                                            <img class="col-12 img-fluid interbank" src="images/interbank.png" style="margin-top: 40px;" alt="">
+                                            <p style="margin-top:35px;color:black;font-size:15px;"><strong>* </strong>Transferencias vía app o web desde tu banco <strong>(IBK)</strong> a la cuenta de Cambios Vara <strong>(IBK)</strong>.</p>
+                                            <p style="margin-top:25px;color:black;font-size:15px;"><strong>* </strong>Solo trabajamos con cuentas aperturadas en la ciudad de Lima.</p>
+                                        </div>
+
+                                </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="container">
+                        <p class="text-center mt-4 txt" style="color:red;font-size:18px;font-weight:700;">* No recibimos depósitos en efectivo o cajeros | <span style="color:black;font-weight:600;"> Horario: * Lunes a viernes de 9 am – 5:30 pm * Sábados: 9 am – 12:30 pm</span></p>
+                </div>
+        </section>
+
+
+
+<style>
+	    .rounded-container {
+ 	        border-radius:30px;
+        	overflow: hidden;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    	}
+	
+	.bcp {
+				width: 65%; /* Personaliza el tamaño de la imagen aquí */
+				margin-top:20px;
+				margin-bottom:8px;
+		}
+	
+	@media (max-width: 576px) { /* Vista solo de celular */
+		.bcp {
+				width: 80%; /* Personaliza el tamaño de la imagen aquí */
+		}
+	}
+
+	.interbank {
+                                width: 85%; /* Personaliza el tamaño de la imagen aquí */
+                                margin-top:27px;
+				margin-bottom:8px;
+                }
+
+        @media (max-width: 576px) { /* Vista solo de celular */
+                .interbank {
+                                width: 90%; /* Personaliza el tamaño de la imagen aquí */
+                }
+
+		.rps {
+			margin-top:20px;
+		}
+	}
+
+	.active {
+	font-size: 13px;
+	margin-top:5px;
+	}
+
+	.active:hover {
+	color:white;
+	}
+</style>
+
+
+
+  <footer>
+
+      <div class="footer-main">
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-md-8">
+                      <p class="highlight" style="margin-bottom:20px;font-weight:700;"><b>¿Necesitas ayuda?</b></p>
+                      <div class="row">
+                          <div class="col-4 pr-0"> <!-- Cambio aquí: Usamos col-6 para dividir en dos columnas -->
+                              <p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-md-call highlight"></i>966 946 604</p>
+                          </div>
+                          <div class="col-4 pl-0 pr-0"> <!-- Cambio aquí: Usamos col-6 para dividir en dos columnas -->
+                              <a href="terminos-y-condiciones.html"><p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-ios-bookmarks highlight"></i>Ver Términos y Condiciones</p></a>
+                          </div>
+                          <div class="col-4 pl-0">
+                              <a href="libro-de-reclamaciones.html"><p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-md-list highlight"></i>Reclamos</p></a>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-4 pr-0">
+                              <p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-md-at highlight"></i>pagoefecty23@gmail.com</p>
+                          </div>
+                          <div class="col-4 pr-0 pl-0">
+                              <a href="reglas-de-arbitraje.html"><p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-md-paper highlight"></i>Reglamento de Arbitraje</p></a>
+                          </div>
+                          <div class="col-4 pr-0 pl-0">
+                              <a href="codigo-de-conducta.html"><p class="active" style="font-size: 15px;"><i style="font-size: 18px;" class="icon ion-md-school highlight"></i>Codigo de Conducta</p></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-4">
+                      <div class="row">
+                          <div class="col-12">
+                              <p class="highlight" style="margin-bottom:20px;font-weight:700;">Formalizados por:</p>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col-4">
+                              <img src="images/sbs1.png" width="100%">
+                          </div>
+                          <div class="col-4">
+                              <img src="images/indecopi1.png" width="100%">
+                          </div>
+                          <div class="col-4">
+                              <img src="images/sunat1.png" width="100%" style="margin-top:5px;">
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+      <div class="text-center py-4" style="background-color: #000000;">
+          <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="http://3imtinnovacion.com/">3TMI Innovación</a></small>
+      </div>
+  </footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,417 @@
+    <!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+
+<head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Basic Page Needs
+  ================================================== -->  
+<meta charset="utf-8">
+  <title>Kaspay Divisas | Rápido y Seguro</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="small-apps" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/Principal.png" />
+
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Q1c+U1euzIDUhFVKeZwIbbYfl6sYDx3dz3d8aVdEUEZFezlrBflUemHyGGYATzBCWW9cTY+NLpEhbsndVwSGNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CUSTOM CSS -->
+  <link href="css/MiPerfil.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+<nav style="background-image: url('/images/fondovara.png');height:85px;" class="navbar main-nav navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span style="background: linear-gradient(90deg, rgba(176,176,176,1) 20%, rgba(226,226,226,1) 50%, rgba(176,176,176,1) 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: flex; font-weight: 700!important; font-size: 45px; margin-right: 10px;">VARA</span>
+      <span style="background: rgb(176,176,176); background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700!important; font-size: 15px; margin-left: 25px; position: relative; top: -18px;">CAMBIOS</span>
+    </a>
+    <div class="collapse navbar-collapse justify-content-end show" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <p style="color:white; margin-right: 20px;margin-top:12px;">T.C.Compra:<span style="color:#5eb5ed;"> 3.65</span></p>
+        </li>
+        <li class="nav-item">
+          <p style="color:white; margin-right: 20px;margin-top:12px;">T.C.Venta:<span style="color:#5eb5ed;"> 3.70</span></p>
+        </li>
+        <li class="nav-item">
+          <button type="button" style="border-radius:20px;" class="btn btn-light mr-4">Natural</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" style="background:#407fbe;border-radius:20px;" class="btn btn-primary">Cambiar Perfil</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--=============================
+=            Sign Up            =
+==============================-->
+
+<div class="container-fluid p-0" style="margin-left: 0; margin-right: 0;">
+    <div class="col-md-12 text-center mt-1 mb-4">
+        <div class="row">
+              <div class="col-md-2 col-12 bg-light">
+                  <h3 class="text">MENÚ</h3>
+                  <i class="icon ion-md-person"></i>
+                <div class="nav flex-column nav-pills mt-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-settings-tab active" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="icon ion-md-contact"></i> Mi Información</a>
+                  <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="href="#v-pills-home"" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="icon ion-md-swap"></i> Cambia Ahora</a>
+                  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="icon ion-md-paper"></i> Mis Operaciones</a>
+                  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="icon ion-md-card"></i> Cuentas Bancarias</a>
+                  <a class="nav-link" id="v-pills-content-tab" data-toggle="pill" href="#v-pills-content" role="tab" aria-controls="v-pills-content" aria-selected="false"><i class="icon ion-md-business"></i> Empresa</a>
+                  <a class="nav-link" id="v-pills-cierre-tab" data-toggle="pill" href="#v-pills-cierre" role="tab" aria-controls="v-pills-cierre" aria-selected="false"><i class="icon ion-md-power"></i> Cerrar Sesión</a>
+                </div>
+              </div>
+              <div class="col-md-10 col-12" id="fondo">
+                <div class="tab-content" id="v-pills-tabContent">
+
+                  <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="icon ion-md-swap"></i> Cambia Ahora</a>
+
+
+                  <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <div class="container">
+                          <div style="border-radius:20px;" class="col-md-12 text-center alert alert-info mb-0" role="alert">
+                            <div class="row">
+                                <div class="col-4">
+                                    <p style="font-weight:600;">Seleccione una empresa:</p>
+                                </div>
+                                <div class="col-4">
+                                  <select style="border-radius:15px;" id="inputState" class="form-control">
+                                    <option disabled selected>Selecciona una Empresa</option>
+                                    <option>Yoyiss Salón & Spa</option>
+                                    <option>3TMInnovación</option>
+                                    <option>Business Divisas</option>
+                                  </select>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" style="background:#407fbe;border-radius:20px;" class="btn btn-primary">Agregar Empresa +</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                                        <i style="font-size:30px;" class="icon ion-logo-whatsapp"></i>
+                    <p class="text-center" style="background: rgb(176,176,176);
+    background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700!important;margin-bottom:5px;">¿Deseas cambiar montos mayores a 5mil Dolares?</p>
+                    <p class="text-center mb-4">Ten un cambio preferencial <a href="#"><span style="color:black;font-weight:bold;">aquí</span></a></p>
+                    </div>
+                        <div class="row align-items-center">
+	                          <div style="background: linear-gradient(90deg, #242F3A, #5c6c6c); box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5); border-radius: 15px; padding: 5px 5px 15px 5px; margin-top: -20px;" class="col-md-6 text-center order-1 order-md-2 mx-auto">
+                            <p id="tituloTipoCambio" style="font-weight: bold; font-size: 35px; line-height: 60px; background: linear-gradient(to right, #407fbe 45%, #5eb5ed 55%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;margin-bottom:5px">
+                              EL MEJOR TIPO DE CAMBIO
+                            </p>
+                            <div style="padding: 0px 15px 10px 10px;" class="row">
+                                                        <div class="col-12">
+                                <p style="color:#f2f2f2;font-family:Open Sans, sans-serif;font-weight: 700!important;margin-bottom:5px">Selecciona tu tipo de cambio</p>
+                              </div>
+                              <div class="col-12">
+                                <form name="formulario" id="formulario">
+                                        <div class="form-row align-items-center mb-2">
+                                                                        <div class="col-md-4">
+                                                                          <button style="font-weight: 700!important; font-family: Open Sans, sans-serif;" type="button" class="btn btn-tipo active" id="btnCompra" onclick="seleccionarTipoCambio('compra')">COMPRA: <span id="tipoCambioCompra">3.65</span></button>
+                                                                        </div>
+                                                                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                                                          <i class="icon ion-md-swap" style="font-size: 40px; color: #5eb5ed; border-radius: 20px; padding: 0px 15px 0px 15px; cursor: pointer;" onclick="cambiarTipoCambio()"></i>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                          <button style="font-weight: 700!important; font-family: Open Sans, sans-serif;" type="button" class="btn btn-tipo" id="btnVenta" onclick="seleccionarTipoCambio('venta')">VENTA: <span id="tipoCambioVenta">3.70</span></button>
+                                                                        </div>
+                                                                        </div>
+                                                                        <div style="margin-bottom: 10px;" class="col-md-12 form-row">
+                                                                                <div class="col-md-8 mx-auto">
+                                                                                        <input style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);" class="form-control" type="number" name="cantidad" id="cantidad" oninput="calcular()" placeholder="Cantidad">
+                                                                                        <span id="cantidadLabel" style="color: aliceblue;"></span>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="col-md-12 form-row">
+                                                                                <div class="col-md-8 mx-auto">
+                                                                                        <input style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);" class="form-control" type="text" name="resultado" id="resultado" readonly="readonly" placeholder="Tu Recibes">
+                                                                                        <span id="resultadoLabel" style="color: aliceblue;"></span>
+                                                                                </div>
+                                                                        </div>
+
+                                                                        <br>
+                                                                        <div class="form-row align-items-center">
+                                                                                <div class="col-md-12">
+                                                                                        <p id="mensajeTipoCambio" style="color: #f2f2f2;font-family:Open Sans, sans-serif;font-weight: 700!important;margin:0px;padding:0px;"></p>
+                                                                                </div>
+                                                                        </div>
+                                                                        <br>
+                                                                        <div class="text-center">
+                                                                                <button type="button" onclick="enviarWhatsapp()" style="font-weight: 700!important;color: aliceblue;background: rgb(176,176,176);background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%);box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);" class="btn">Realizar Operación</button>
+                                                                        </div>
+                                                                </form>
+                                                        </div>
+                                                </div>
+                                           </div>
+                                        </div>
+
+                                </div>
+
+                                        <script>
+                                                let precioCompra = 3.65; // Reemplaza con el valor de compra actual
+                                                let precioVenta = 3.70; // Reemplaza con el valor de venta actual
+                                          
+                                                function seleccionarTipoCambio(tipo) {
+                                                  document.getElementById("btnCompra").classList.remove("active");
+                                                  document.getElementById("btnVenta").classList.remove("active");
+                                          
+                                                  if (tipo === "compra") {
+                                                        document.getElementById("btnCompra").classList.add("active");
+                                                        document.getElementById("tipoCambioCompra").innerText = precioCompra.toFixed(2);
+                                                        document.getElementById("mensajeTipoCambio").innerText = "Recibes soles";
+                                                  } else if (tipo === "venta") {
+                                                        document.getElementById("btnVenta").classList.add("active");
+                                                        document.getElementById("tipoCambioVenta").innerText = precioVenta.toFixed(2);
+                                                        document.getElementById("mensajeTipoCambio").innerText = "Recibes dólares";
+                                                  }
+                                          
+                                                  calcular();
+                                                }
+                                          
+                                                function cambiarTipoCambio() {
+                                                  let btnCompra = document.getElementById("btnCompra");
+                                                  let btnVenta = document.getElementById("btnVenta");
+                                          
+                                                  btnCompra.classList.toggle("active");
+                                                  btnVenta.classList.toggle("active");
+                                          
+                                                  let tipo = btnCompra.classList.contains("active") ? "compra" : "venta";
+                                                  seleccionarTipoCambio(tipo);
+                                                }
+                                        
+                                                function calcular() {
+                                                        let tipoCambio;
+                                                        let mensaje;
+                                                        if (document.getElementById("btnCompra").classList.contains("active")) {
+                                                                tipoCambio = "compra";
+                                                                mensaje = "ENVÍAS DÓLARES Y RECIBES SOLES";
+                                                        } else if (document.getElementById("btnVenta").classList.contains("active")) {
+                                                                tipoCambio = "venta";
+                                                                mensaje = "ENVÍAS SOLES Y RECIBES DÓLARES";
+                                                        } else {
+                                                                return;
+                                                        }
+                                        
+                                                        let cantidad = document.getElementById("cantidad").value;
+                                                        let resultado;
+                                        
+                                                        if ((cantidad - 0) != cantidad && ('' + cantidad).replace(/^\s+|\s+$/g, "").length > 0) {
+                                                                alert("Ingrese números");
+                                                                return false;
+                                                        } else {
+                                                                if (tipoCambio === "compra") {
+                                                                        resultado = (cantidad * precioCompra).toFixed(2);
+                                                                } else if (tipoCambio === "venta") {
+                                                                        resultado = (cantidad / precioVenta).toFixed(2);
+                                                                }
+                                                                document.getElementById("resultado").value = resultado;
+                                                        }
+                                        
+                                                        document.getElementById("mensajeTipoCambio").innerText = mensaje;
+                                                }
+                                        
+                                                function enviarWhatsapp() {
+                                                        let tipoCambio;
+                                                        if (document.getElementById("btnCompra").classList.contains("active")) {
+                                                                tipoCambio = "COMPRA";
+                                                        } else if (document.getElementById("btnVenta").classList.contains("active")) {
+                                                                tipoCambio = "VENTA";
+                                                        } else {
+                                                                return;
+                                                        }
+                                        
+                                                        let resultadoCambio = document.getElementById("resultado").value;
+                                                        let mensaje = `¡Hola! Quiero realizar una ${tipoCambio} con un resultado de ${resultadoCambio}.`;
+                                        
+                                                        // Reemplaza el número de teléfono con tu número de WhatsApp
+                                                        let telefono = "970478495";
+                                                        let url = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensaje)}`;
+                                        
+                                                        window.open(url, "_blank");
+                                                }
+                                        
+                                        // Lista de textos predeterminados
+                                                        var textosPredeterminados = [
+                                                                "EL MEJOR TIPO DE CAMBIO",
+                                                                "CAMBIA RÁPIDO Y FACÍL",
+                                                                "SOLO EN VARA CAMBIOS",
+                                                                "EL MEJOR CAMBIO DEL PERÚ"
+                                                        ];
+
+                                                        var textoIndex = 0;
+
+                                                        function cambiarTexto() {
+                                                                document.getElementById("tituloTipoCambio").innerText = textosPredeterminados[textoIndex];
+                                                                textoIndex = (textoIndex + 1) % textosPredeterminados.length;
+                                                        }
+
+                                                        // Cambiar el texto cada 2 segundos
+                                                        setInterval(cambiarTexto, 2500);
+                                        </script>
+
+                                        <style>
+                    #fondo {
+                        background-image: url('/images/fondoprueba3.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                                                .btn-tipo {
+                                        background-color: #ffffff;
+                                        color: #000000;
+                                        border-color: #27252500;
+                                        border-width: 1px; /* Ajusta el grosor del borde según tus preferencias */
+                                        border-style: solid; /* Define el estilo del borde como una línea continua */
+                                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+                                        font-size: 15px; /* Ajusta el tamaño de la fuente según tus preferencias */
+                    padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+                                }
+
+                                .btn-tipo.active {
+                                background: linear-gradient(90deg, rgba(176,176,176,1) 20%, rgba(226,226,226,1) 50%, rgba(176,176,176,1) 80%);
+                                color: #141b26;
+                                border: none;
+}
+
+                                        </style>
+                  </div>
+
+        </div>
+    </div>
+</div>
+	
+
+<!--============================
+=            Footer            =
+=============================-->
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+            <a href="index2.html">
+  <span style="background: linear-gradient(90deg, rgba(176,176,176,1) 20%, rgba(226,226,226,1) 50%, rgba(176,176,176,1) 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: flex; font-weight: 700!important; font-size: 75px;">VARA</span>
+  <span style="background: rgb(176,176,176); background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700!important; font-size: 25px; margin-left: 40px; position: relative; top: -18px;">CAMBIOS</span>
+</a>
+            <!-- Social Site Icons -->
+            <ul style="margin-left:25px;" class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/kaspay.pe/"><i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://telegram.me/kaspay"><i class="ti-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/kaspay.pe/?hl=es"><i class="ti-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+
+            <h6>Contacto</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="https://www.waze.com/es-419/live-map/directions/pe/provincia-de-lima/jesus-maria/av.-arnaldo-marquez-1372?to=place.EjRBdi4gQXJuYWxkbyBNw6FycXVleiAxMzcyLCBKZXPDunMgTWFyw61hIDE1MDcyLCBQZXJ1IhsSGQoUChIJCw_lpOTIBZER1wVoncQKyTgQ3Ao">Av. Jose Arnaldo Marquez N° 1372 Jesús María, Lima</a></li>
+              <li><a href="sign-in.html">(01) 7644320 / 924 252 563</a></li>
+              <li><a href="https://go.microsoft.com/fwlink/?LinkId=550986">info@Vara.pe</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Horarios</h6>
+            <!-- links -->
+            <ul>
+              <li><a>
+                                LUN-VIE
+                                09:00 a.m. - 05:30 p.m.</a></li>
+              <li><a>SÁBADO
+                                09:00 a.m. - 01:00 p.m.</a></li>
+              <a href="libro-de-reclamaciones.html"><img src="images/libro_de_reclamaciones-1.jpg" width="55px" alt=""></a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Información</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="Nosotros.html">Nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="sign-in.html">Inicia Sesión</a></li>
+              <li><a href="Reglas de Arbitraje.html">Reglamento de Arbitraje</a></li>
+                          <li><a href="Terminos y Condiciones.html">Terminos y Condiciones</a></li>
+              <li><a href="Codigo de Conducta.html">código de Conducta</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="http://3imtinnovacion.com/">3TMI Innovación</a></small>
+  </div>
+</footer>
+
+
+  <!-- To Top -->
+  <!--<div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>-->
+
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

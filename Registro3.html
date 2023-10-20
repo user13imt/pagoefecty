@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+
+<head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Kaspay Divisas | Rápido y Seguro</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="small-apps" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/Principal.png" />
+
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- CUSTOM CSS -->
+  <link href="css/styleRegistro2.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+<nav style="background:black;" class="navbar main-nav navbar-expand-lg">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+  <span style="background: linear-gradient(90deg, rgba(176,176,176,1) 20%, rgba(226,226,226,1) 50%, rgba(176,176,176,1) 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: flex; font-weight: 700!important; font-size: 45px; margin-right: 10px;">VARA</span>
+  <span style="background: rgb(176,176,176); background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700!important; font-size: 15px; margin-left: 25px; position: relative; top: -18px;">CAMBIOS</span>
+</a>
+    <button style="background: rgb(176,176,176); background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%);color:rgba(176,176,176,1);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item @@about">
+          <a style="color:#fff;" class="nav-link" href="index.html">Inicio   
+          </a>    
+        </li>
+        <li class="nav-item @@about">
+          <a style="color:#fff;" class="nav-link" href="Nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item @@contact">
+          <a style="color:#fff;" class="nav-link" href="Contacto.html">Contacto</a>
+        </li>
+		<li class="nav-item @@registro">
+			<a style="color:#fff;" class="nav-link" href="sign-in.html">Inicio de Sesion</a>
+		  </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!--=============================
+=            Sign Up            =
+==============================-->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center mt-4 mb-4">
+              <span style="color:#1b1b1b; font-weight: 700!important; font-size: 45px;">REGISTRATE</span>
+              <div class="col-md-12 text-center mt-4">
+                <form id="registrationForm" class="d-inline-block align-middle">
+                    <div class="form-group col-md-8 offset-md-2">
+                        <label for="fullName">Nombres y Apellidos</label>
+                        <input type="text" class="form-control bg-light" id="fullName">
+                    </div>
+                    <div class="form-group col-md-8 offset-md-2">
+                        <label for="contactNumber">Numero de contacto</label>
+                        <input type="number" class="form-control bg-light" id="contactNumber">
+                    </div>
+                    <div class="form-group col-md-8 offset-md-2">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" class="form-control bg-light" id="email" placeholder="Ejemplo@gmail.com">
+                    </div>
+                    <div class="form-group col-md-8 offset-md-2">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control bg-light" id="password">
+                    </div>
+                    <div class="form-group form-check col-md-8 offset-md-2 mt-3 mb-3">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Para Registrarte debes de aceptar nuestros <a href="Terminos y Condiciones.html">Terminos y Condiciones</a></label>
+                    </div>
+                    <div class="form-group col-md-4 offset-md-4">
+                        <button id="registrationButton" type="submit" class="btn btn-block">Registrate</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .body-wrapper {
+        background-image: url('images/fondoprueba3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .form-control {
+        border-radius:15px;
+        padding:22px;
+        border:1px solid #6f6f6f;
+    }
+    
+        .btn {
+        border-radius:15px;
+        background: rgb(176,176,176);
+        background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%);
+        color:white;
+    }
+</style>
+
+  <script>
+    document.getElementById("registrationForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+      
+      // Obtener los valores de los campos de entrada
+      var fullName = document.getElementById("fullName").value;
+      var contactNumber = document.getElementById("contactNumber").value;
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var checkbox = document.getElementById("exampleCheck1");
+      
+      // Realizar acciones específicas para cada campo de entrada
+      // Ejemplo: Validar los campos o realizar alguna acción basada en los valores
+      
+      if (fullName === "") {
+          alert("Ingrese su nombre completo");
+          return; // Detener el envío del formulario si el campo está vacío
+      }
+      
+      if (contactNumber === "") {
+          alert("Ingrese su número de contacto");
+          return; // Detener el envío del formulario si el campo está vacío
+      }
+      
+      if (email === "") {
+          alert("Ingrese su correo electrónico");
+          return; // Detener el envío del formulario si el campo está vacío
+      }
+      
+      if (password === "") {
+          alert("Ingrese una contraseña");
+          return; // Detener el envío del formulario si el campo está vacío
+      }
+      
+      if (!checkbox.checked) {
+          alert("Debe aceptar los Términos y Condiciones para registrarse");
+          return; // Detener el envío del formulario si el checkbox no está seleccionado
+      }
+      
+      // Realizar acciones adicionales o enviar el formulario
+      
+      // Ejemplo: Mostrar los valores en la consola
+      console.log("Nombres y Apellidos: " + fullName);
+      console.log("Numero de contacto: " + contactNumber);
+      console.log("Correo Electronico: " + email);
+      console.log("Contraseña: " + password);
+      
+      // Aquí puedes agregar el código para enviar el formulario al servidor si es necesario
+      
+      // Redireccionar a la página después de enviar el formulario
+  window.location.href = "Mi-Perfil.html";
+    });
+  </script>
+
+ <!--====  End of Sign Up  ====-->
+
+  
+<script>
+  $(document).ready(function() {
+    $("#primero").on('click', function(e) {
+      $("#natural").css('display', 'block');
+      $("#juridica").css('display', 'none');
+      $("#primero").addClass("active");
+      $("#segundo").removeClass("active");
+    });
+
+    $("#segundo").on('click', function(e) {
+      $("#natural").css('display', 'none');
+      $("#juridica").css('display', 'block');
+      $("#primero").removeClass("active");
+      $("#segundo").addClass("active");
+    });
+  });
+</script>
+
+
+<style>
+
+#iconic {
+  font-size: 32px;
+  margin-right: 18px;
+  color: white;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.highlight {
+  background: rgb(176,176,176);
+    background: linear-gradient(90deg, #407fbe 20%, #407fbe 50%, #5eb5ed 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Color azulino fosforescente */
+    text-decoration:none;
+}
+
+        .active1 {
+        font-size: 13px;
+        margin-top:5px;
+        color: #808080;
+        }
+
+        .active1:hover {
+        color:white;
+        }
+</style>
+        <!--============================
+=            Footer            =
+=============================-->
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <p class="highlight" style="margin-bottom:20px;font-weight:700;">¿Necesitas ayuda?</p>
+          <div class="row">
+            <div class="col-4 pr-0 pl-0"> <!-- Cambio aquí: Usamos col-6 para dividir en dos columnas -->
+              <p class="active1"><i id="iconic" style="font-size: 20px;" class="icon ion-md-call highlight"></i>+51 7644320 / +51 924252563</p>
+            </div>
+            <div class="col-4 pl-0 pr-0"> <!-- Cambio aquí: Usamos col-6 para dividir en dos columnas -->
+              <a href="terminos-y-condiciones.html"><p class="active1"><i id="iconic" style="font-size: 20px;" class="icon ion-ios-bookmarks highlight"></i>Ver Términos y Condiciones</p></a>
+            </div>
+            <div class="col-4 pl-0">
+              <a href="libro-de-reclamaciones.html"><p class="active1"><i id="iconic" style="font-size: 20px;" class="icon ion-md-list highlight"></i>Reclamos</p></a>
+            </div>
+          </div>
+         <div class="row">
+            <div class="col-4 pr-0 pl-0">
+              <p class="active1"><i style="font-size: 20px;" id="iconic" class="icon ion-md-at highlight"></i>hola@cambiosvara.com</p>
+            </div>
+            <div class="col-4 pr-0 pl-0">
+              <a href="reglas-de-arbitraje.html"><p class="active1"><i id="iconic" style="font-size: 20px;" class="icon ion-md-paper highlight"></i>Reglamento de Arbitraje</p></a>
+            </div>
+            <div class="col-4 pr-0 pl-0">
+              <a href="codigo-de-conducta.html"><p class="active1"><i id="iconic" style="font-size: 20px;" class="icon ion-md-school highlight"></i>Codigo de Conducta</p></a>
+            </div>
+         </div>
+        </div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-5">
+               <p class="highlight" style="margin-bottom:20px;font-weight:700;">Formalizados por:</p>
+            </div>
+            <div class="col-4">
+               <p class="highlight" style="margin-bottom:20px;font-weight:700;">Registrados en:</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+               <img src="/images/sbs1.png" width="100%">
+            </div>
+            <div class="col-4">
+               <img src="/images/indecopi1.png" width="100%">
+            </div>
+            <div class="col-3 pr-0 pl-0">
+               <img src="/images/sunat1.png" width="100%" style="margin-top:5px;">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="http://3imtinnovacion.com/">3TMI Innovación</a></small>
+  </div>
+</footer>
+
+
+  <!-- To Top 
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div> -->
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>
